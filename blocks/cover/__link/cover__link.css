@@ -1,0 +1,11 @@
+.cover__link{
+  background-image: url(../cover-trains.jpg);
+  text-decoration: none;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 740px;
+  display: block;
+  width: 100%;
+  position: relative;
+  }
