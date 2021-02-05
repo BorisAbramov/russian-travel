@@ -1,0 +1,16 @@
+.places__website-link{
+  margin-top: 12px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  display: block;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.places__website-link:hover{
+  color: #aaaaaa;
+  transition: linear 0.3s;
+}
