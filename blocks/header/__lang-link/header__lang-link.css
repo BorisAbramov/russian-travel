@@ -3,7 +3,16 @@
     line-height: 28px;
     font-weight: normal;
     color: #FFFFFF;
-    margin-right: 0;
-    margin-left: auto;
-    padding: 0;
+    text-decoration: none;
+    margin-left: 18px;
+}
+.header__lang-link:hover{
+    opacity: 0.8;
+    transition: linear 0.4s;
+  }
+@media screen and (max-width: 767px){
+    .header__lang-link{
+      font-size: 18px;
+      line-height: 20px;
+    }
 }

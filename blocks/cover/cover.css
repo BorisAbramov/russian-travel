@@ -1,21 +1,10 @@
 .cover{
   max-width: 1184px;
-  width: calc(100% - 48px*2);
+  width: 100%;
   display: flex;
-  flex-direction: column;
   padding: 0;
   margin: 0 auto;
-  
-  background-image: url('../../images/cover-trains.jpg');
-  background-size: cover;
-  background-position: center;
 }
-
-.cover:hover .cover__overlay{ 
-    opacity: 0.8;
-    transition: linear 0.4s;
-  }
-
   @media screen and (max-width: 1200px){
     .cover{
         max-width: 1200px;

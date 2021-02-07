@@ -10,9 +10,14 @@
 .places__paragraph:last-child{
   margin-bottom: 0;
 }
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 900px){
   .places__paragraph{
     font-size: 16px;
     line-height: 26px;
+  }
+}
+@media screen and (max-width: 600px){
+  .places__paragraph{
+    padding: 0 16px 0;
   }
 }

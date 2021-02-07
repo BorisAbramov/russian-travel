@@ -5,12 +5,12 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
-  display: block;
+  /*display: block;*/
   position: relative;
   left: 0;
   bottom: 0;
 }
 .places__website-link:hover{
-  color: #aaaaaa;
+  opacity: 0.8;
   transition: linear 0.3s;
 }

@@ -7,21 +7,21 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Russian-travel</title>
 </head>
-<body>
+<body class="body">
   <div class="page">
     <header class="header"> 
       <img src="images/header-logo.svg" alt="Логотип путешествий по России" class="header-logo">
-      <nav class="header__lang">
-        <a href="#" class="header__lang-link" target="_self">Ru</a>
+      <div class="header__lang">
+        <a href="#" class="header__lang-link header__lang-link_active" target="_self">Ru</a>
         <a href="#" class="header__lang-link" target="_self">En</a>
-      </nav>
+      </div>
     </header>
     
     <main class="content">
       
       <section class="lead">
-        <h2 class="lead__title">Путешествия по России</h2>
-        <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
+        <h1 class="lead__title">Путешествия по России</h1>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img src="images/lead-image.svg" alt="картинка полка вагона и карта путешествия" class="lead__image">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
@@ -174,14 +174,17 @@
     </main>
     
     <footer class="footer">
-      <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
-      <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
-      <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
-      <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
-      <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
+      <nav class="footer__menu">
+        <ul class="footer__columns">
+          <li class="footer__column"><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
+          <li class="footer__column"><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
+          <li class="footer__column"><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></li>
+          <li class="footer__column"><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
+          <li class="footer__column"><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
+          
+        </ul>
+      </nav>
       <p class="footer__copyright">© 2020. Борис Абрамов</p>
-
-
 
 
     </footer>

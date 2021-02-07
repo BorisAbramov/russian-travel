@@ -1,7 +1,7 @@
 .intro{
     display: flex;
     max-width: 690px;
-    min-height: 429px;
+    /*min-height: 429px;*/
     flex-direction: column;
     padding: 0;
     padding-top: 92px;

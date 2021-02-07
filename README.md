@@ -12,6 +12,6 @@
 
 **ссылка**
 
-https://github.com/BorisAbramov/russian-travel/index.html
+https://borisabramov.github.io/russian-travel/
 
 

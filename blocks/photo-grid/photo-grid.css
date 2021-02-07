@@ -1,6 +1,6 @@
 .photo-grid{
     max-width: 1184px;
-    min-height: 671px;
+    /*min-height: 671px;*/
     padding: 92px 0 0;
     margin: 0 auto;
     display: grid;
@@ -8,7 +8,7 @@
     /*grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*/
     /*grid-template-rows: repeat(3, 1fr);*/
     gap: 16px;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 @media screen and (max-width: 1200px){
     .photo-grid{
@@ -20,6 +20,7 @@
 @media screen and (max-width: 900px){
     .photo-grid{
         padding: 92px 24px 0;
+        gap: 16px;
         grid-template-columns: repeat(2, 1fr);
     }
 }
